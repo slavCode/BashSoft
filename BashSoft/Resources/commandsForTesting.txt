@@ -1,0 +1,36 @@
+make directory - mkdir: path                                                                      |
+|traverse directory - ls: depth                                                                    |
+|comparing files - cmp: path1 path2                                                                |
+|change directory - cdRel:relative path                                                            |
+|change directory - cdAbs:absolute path                                                            |
+|read students data base - readDb: path                                                            |
+|filter {courseName} excelent/average/poor  take 2/5/all students - filterExcelent (the output is written on the console)|
+|order increasing students - order {courseName} ascending/descending take 20/10/all (the output is written on the console)|
+|download file - download: path of file (saved in current directory)                               |
+|download file asinchronously - downloadAsynch: path of file (save in the current directory)       |
+|get help - help
+
+C:\Users\Slav.GERB\Google Drive\SoftUni\BashSoft-OOP\00. CSharp-OOP-Advanced-BashSoft-Base\BashSoft\bin\Debug>
+Test:
+mkdir pesho 
+ls
+ls 5 / if has subfolders
+cmp test1.txt test2.txt / same text
+cmp test2.txt test3.txt / equal length diff text
+cmp test3.txt test4.txt / not equal length
+cdRel ..
+cdRel Debug
+cdAbs C:\
+readDb dataNew.txt
+show C_Nov_2015
+order C_Nov_2015 descending take 15
+order C_Nov_2015 ascending take 15
+filter C_Nov_2015 excellent take all
+filter DataStructures_Apr_2016 poor take 3
+dropDb
+open dataNew.txt
+
+
+
+
+
